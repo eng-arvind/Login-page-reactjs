@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	margin: -20px 0 50px;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    font-size: 100%;
+}
+
+.container {
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 480px;
+    box-shadow: 10px 10px 5px rgb(238, 235, 235);
+}
+
+
+.main-container {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+    display: flex;
+    font-family: 'Hind Siliguri', sans-serif;
+    
+}
+
+.first-container{
+	background:0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 100%;
+	width: 45%;
+    background-color:#acebd9;
+}
+.title-text
+{
+    margin:50% auto;
+    width: fit-content;
+}
+.title-text p{
+    font-size: 12px;
+}
+
+.second-container
+{
+	height: 100%;
+	width: 60%;
+    right: 0;
+}
+.btn
+{
+    background-color: transparent;
+    border: none;
+    float: right;
+    color:#59cfa9;
+    margin-right: 1rem;
+    margin-top: .7rem;
+    font-size: 13px;
+    cursor:pointer;
+}
+.main{
+    position: relative;
+    margin: 3rem 3rem;
+}
+.signup
+{
+    font-size: 12px;
+    position: relative;
+}
+.logo{
+    display: flex;
+}
+.logo img
+{
+    width: 14px;
+    margin-right: 10px;
+}
+.logo-google
+{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 1px;
+
+}
+.google-with
+{
+   width: 13rem;
+   height: 1.7rem;
+   background-color: #fa5c5c;
+   border: none;
+   border-radius: 2px;
+   color: white;
+}
+.logo-title
+{
+    display: flex;
+}
+
+.facebook
+{
+    height: 1.7rem;
+    width: 2rem;
+    border-radius: 3px;
+    margin: 0 10px;
+    background-color: blue;
+    
+}
+.facebook img{
+ 
+   width: 1.5rem;
+   margin: 1px auto auto 4px;
+}
+.twitter
+{
+    position: relative;
+    height: 1.7rem;
+    width: 2rem;
+    background-color: #42eaed;
+    border-radius: 3px;
+
+}
+.twitter img
+{
+    width: 1.5rem;
+    margin: 1px auto auto 4px;
+}
+.eml
+{
+    margin-top: .8rem;
+    font-size: 12px;
+}
+.form {
+    margin-top: 1rem;
+    font-weight:15px;
+}
+.form-field{
+    padding: 5px;
+}
+.form-field input
+{
+    width: 18rem;
+    height: 2.3rem;
+    border:none;
+    background-color: #f7f7f7;
+    text-indent:1rem;
+}
+
+::placeholder{
+    color:#d6d6d6;
+}
+.checkbox{
+    display: flex;
+}
+.checkbox > input{
+    margin-top: 10px;
+    width: 25px;
+    height: 14px;
+}
+  
+.checkbox p{
+    margin-left: 5px;
+    font-size: 12px;
+    margin-top: 2px;
+}
+.create
+{
+    width: 9.5rem;
+    height: 2.1rem;
+    background-color: #48c79a;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+.forgot
+{
+float: right;
+}
+.forgot a{
+    text-decoration: none;
+    color:#59cfa9;
+    font-size: 11px;
+    margin-right: 2.8rem;
+}
