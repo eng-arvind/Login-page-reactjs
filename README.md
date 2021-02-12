@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-# UI DEGING FOR USER LOGIN AND SIGN IN
+# UI DESIGN FOR USER LOGIN AND SIGN IN
   This is the fully responsive UI page for user Login and sign in authentication.
 # For The Desktop
 # User Sign In
