@@ -3,6 +3,8 @@
 *{
     padding: 0;
     margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 body{
@@ -53,9 +55,10 @@ body{
 {
     margin:50% auto;
     width: fit-content;
+    font-size:1rem;
 }
 .title-text p{
-    font-size: 12px;
+    font-size: .8rem;
 }
 
 .second-container
@@ -72,7 +75,7 @@ body{
     color:#59cfa9;
     margin-right: 1rem;
     margin-top: .7rem;
-    font-size: 13px;
+    font-size: .8rem;
     cursor:pointer;
 }
 .main{
@@ -190,7 +193,7 @@ body{
     border-radius: 3px;
     margin-top: 10px;
     margin-left: 5px;
-    font-size: 15px;
+    font-size: 1.2rem;
 }
 .forgot
 {
@@ -201,4 +204,48 @@ float: right;
     color:#59cfa9;
     font-size: 11px;
     margin-right: 2.8rem;
+}
+@media screen and (min-width: 0px) and (max-width: 766px)   
+{
+
+    body{
+        background: white;
+        scroll-behavior: smooth;
+        margin: 0;
+        padding: 0;
+        line-height: 30px;
+        font-size: 100%;
+    }
+    
+    .container {
+        width: 768px;
+        height:100vh;
+       
+    }
+    
+    
+    .main-container {
+        position:absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        font-family: 'Hind Siliguri', sans-serif;
+        
+    }
+    
+    .first-container{
+        display: none;
+    }
+    .second-container
+{
+    position:relative;
+	height: 100%;
+	width:60%;
+    box-shadow: 0 0 10px 5px rgb(228, 223, 223);
+}
 }
