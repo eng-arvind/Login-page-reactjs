@@ -220,6 +220,7 @@ float: right;
     .container {
         width: 768px;
         height:100vh;
+        box-shadow: none;
        
     }
     
@@ -230,7 +231,6 @@ float: right;
         width: 100%;
         height: 100%;
         margin-left: 12%;
-        margin-top: 10%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -245,8 +245,8 @@ float: right;
     .second-container
 {
     position:relative;
-    
-	height: 100%;
+    display: block;
+	height: 70%;
     overflow: hidden;
 	width:60%;
     box-shadow: 0 0 10px 5px rgb(228, 223, 223);
